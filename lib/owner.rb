@@ -66,5 +66,15 @@ class Owner
     @pets = []
   end
 
+  def list_pets
+    message = ""
+    self.pets.each do |pet_kind, pet_array|
+      quantity = "#{pet_array.length} #{pet_kind.to_s}"
+      message = "#{quantity, }"
+    end
+    "I have #{message}."
+    
+  end
+
 
 end
