@@ -70,7 +70,7 @@ class Owner
     message = ""
     self.pets.each do |pet_kind, pet_array|
       quantity = "#{pet_array.length} #{pet_kind.to_s}"
-      message = "#{quantity, }"
+      message += "#{quantity, }"
     end
     "I have #{message}."
 
