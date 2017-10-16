@@ -59,8 +59,8 @@ class Owner
 
   def sell_pets
     self.pets.each do |pet_kind|
-      pet_kind.each_with_index do |pet, index|
-        pet[index].mood = "nervous"
+      self.pets[pet_kind].each do |pet|
+        pet.mood = "nervous"
       end
     end
   end
