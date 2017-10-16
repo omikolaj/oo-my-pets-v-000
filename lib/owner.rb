@@ -67,7 +67,13 @@ class Owner
   end
 
   def list_pets
-
+    quantity  = []
+    self.pets.values.map do |v|
+      quantity << v.size
+    end
+    "I have #{quantity[0]} fish, #{quantity[1]} dog(s), and #{quantity[2]} cat(s)."
+    
+      
   end
 
 
