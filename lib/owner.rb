@@ -73,7 +73,7 @@ class Owner
       message = "#{quantity, }"
     end
     "I have #{message}."
-    
+
   end
 
 
