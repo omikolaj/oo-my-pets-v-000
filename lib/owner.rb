@@ -72,8 +72,6 @@ class Owner
       quantity << v.size
     end
     "I have #{quantity[0]} fish, #{quantity[1]} dog(s), and #{quantity[2]} cat(s)."
-    
-      
   end
 
 
