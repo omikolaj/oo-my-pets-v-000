@@ -72,7 +72,7 @@ class Owner
       quantity = "#{pet_array.length} #{pet_kind.to_s}"
       message += "#{quantity, }"
     end
-    "I have #{message}."
+    puts "I have #{message}."
 
   end
 
