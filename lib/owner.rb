@@ -45,4 +45,9 @@ class Owner
     end
   end
 
+  def play_with_cats
+    self.pets[:cats].map do |cat|
+      cat.mood = "happy"
+  end
+
 end
